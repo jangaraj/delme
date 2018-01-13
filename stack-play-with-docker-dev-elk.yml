@@ -23,6 +23,7 @@ services:
       - ZS_DBHost=zabbixdb
       - ZS_DBUser=zabbix
       - ZS_DBPassword=my_password
+      - ZS_HistoryStorageURL=http://elasticsearch:9200
       - XXL_zapix=true
       - XXL_grapher=true
 
